@@ -1,0 +1,7 @@
+package org.quantumstudio.eemod.api;
+
+import net.minecraft.util.StringRepresentable;
+
+public interface IEnumPropertyBlock extends StringRepresentable {
+    boolean displayInItemGroup();
+}

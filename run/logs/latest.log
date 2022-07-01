@@ -1,0 +1,94 @@
+[08:34:20] [main/INFO] (Launcher) ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.18.2-1.18, --assetsDir, C:\Users\Administrator\.gradle\caches\fabric-loom\assets, --gameDir, ., --fml.forgeVersion, 40.1.0, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914, -mixin.config, mixins.eemod.json]
+[08:34:20] [main/INFO] (Launcher) ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 18.0.1 by Eclipse Adoptium
+[08:34:20] [main/INFO] (mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Administrator/.gradle/caches/transforms-3/8c6af7ef259ddf4e008579613628a73b/transformed/alfd-transformed/mixin-patched-0.8.5.6.jar%2317!/ Service=ModLauncher Env=CLIENT
+[08:34:21] [main/INFO] (ModDiscoverer) Found mod file javafmllanguage-1.18.2-40.1.0.jar of type LANGPROVIDER with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@46074492
+[08:34:21] [main/INFO] (ModDiscoverer) Found mod file mclanguage-1.18.2-40.1.0.jar of type LANGPROVIDER with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@46074492
+[08:34:21] [main/INFO] (ModDiscoverer) Found mod file fmlcore-1.18.2-40.1.0.jar of type LIBRARY with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@46074492
+[08:34:21] [main/INFO] (ModDiscoverer) Found mod file forge-1.18.2-40.1.0-minecraft-project-@-merged-named.jar of type MOD with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@46074492
+[08:34:21] [main/INFO] (ModDiscoverer) Found mod file main of type MOD with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@46074492
+[08:34:21] [main/INFO] (ModDiscoverer) Found mod file  of type MOD with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@46074492
+[08:34:27] [main/INFO] (mixin) Compatibility level set to JAVA_17
+[08:34:27] [main/INFO] (LaunchServiceHandler) Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Administrator\.gradle\caches\fabric-loom\assets, --assetIndex, 1.18.2-1.18]
+[08:34:27] [main/INFO] (unprotect) Found 6391 Minecraft classes
+[08:34:27] [main/WARN] (mixin) Reference map 'mixins.eemod.refmap.json' for mixins.eemod.json could not be read. If this is a development environment you can ignore this message
+[08:34:40] [Render thread/WARN] (Minecraft) Assets URL 'union:/E:/EEMod/EEMod/.gradle/loom-cache/1.18.2/loom.mappings.1_18_2.layered+hash.1459175479-v2-forge-1.18.2-40.1.0/forge-1.18.2-40.1.0-minecraft-project-@-merged-named.jar%2366!/assets/.mcassetsroot' uses unexpected schema
+[08:34:40] [Render thread/WARN] (Minecraft) Assets URL 'union:/E:/EEMod/EEMod/.gradle/loom-cache/1.18.2/loom.mappings.1_18_2.layered+hash.1459175479-v2-forge-1.18.2-40.1.0/forge-1.18.2-40.1.0-minecraft-project-@-merged-named.jar%2366!/data/.mcassetsroot' uses unexpected schema
+[08:34:40] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[08:34:40] [Render thread/INFO] (Minecraft) Setting user: Dev
+[08:34:40] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.2.2 SNAPSHOT
+[08:34:48] [modloading-worker-0/INFO] (ForgeMod) Forge mod loading, version 40.1.0, for MC 1.18.2 with MCP 20220404.173914
+[08:34:48] [modloading-worker-0/INFO] (MinecraftForge) MinecraftForge v40.1.0 Initialized
+[08:34:55] [Render thread/INFO] (Minecraft) Narrator library for x64 successfully loaded
+[08:34:55] [Render thread/INFO] (ForgeGameTestHooks) Enabled Gametest Namespaces: []
+[08:34:56] [Render thread/INFO] (Minecraft) Reloading ResourceManager: Default, Mod Resources
+[08:35:00] [Forge Version Check/INFO] (VersionChecker) [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[08:35:07] [Forge Version Check/INFO] (VersionChecker) [forge] Found status: UP_TO_DATE Current: 40.1.0 Target: null
+[08:35:09] [Worker-Main-13/WARN] (Minecraft) Unable to load model: 'eemod:bauxite#inventory' referenced from: eemod:bauxite#inventory: java.io.FileNotFoundException: eemod:models/item/bauxite.json
+[08:35:09] [Worker-Main-13/WARN] (Minecraft) Unable to load model: 'eemod:cassiterite#inventory' referenced from: eemod:cassiterite#inventory: java.io.FileNotFoundException: eemod:models/item/cassiterite.json
+[08:35:09] [Worker-Main-13/WARN] (Minecraft) Unable to load model: 'eemod:chlorargyrite#inventory' referenced from: eemod:chlorargyrite#inventory: java.io.FileNotFoundException: eemod:models/item/chlorargyrite.json
+[08:35:09] [Worker-Main-13/WARN] (Minecraft) Unable to load model: 'eemod:pyrite#inventory' referenced from: eemod:pyrite#inventory: java.io.FileNotFoundException: eemod:models/item/pyrite.json
+[08:35:09] [Worker-Main-13/WARN] (Minecraft) Unable to load model: 'eemod:chromite#inventory' referenced from: eemod:chromite#inventory: java.io.FileNotFoundException: eemod:models/item/chromite.json
+[08:35:09] [Worker-Main-13/WARN] (Minecraft) Unable to load model: 'eemod:sphalerite#inventory' referenced from: eemod:sphalerite#inventory: java.io.FileNotFoundException: eemod:models/item/sphalerite.json
+[08:35:10] [Worker-Main-19/ERROR] (Minecraft) Using missing texture, unable to load eemod:textures/block/pyrite.png : java.io.FileNotFoundException: eemod:textures/block/pyrite.png
+[08:35:10] [Worker-Main-12/ERROR] (Minecraft) Using missing texture, unable to load eemod:textures/block/sphalerite.png : java.io.FileNotFoundException: eemod:textures/block/sphalerite.png
+[08:35:10] [Worker-Main-23/ERROR] (Minecraft) Using missing texture, unable to load eemod:textures/block/chromite.png : java.io.FileNotFoundException: eemod:textures/block/chromite.png
+[08:35:10] [Worker-Main-19/ERROR] (Minecraft) Using missing texture, unable to load eemod:textures/block/chlorargyrite.png : java.io.FileNotFoundException: eemod:textures/block/chlorargyrite.png
+[08:35:13] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Speakers (3- High Definition Audio Device)
+[08:35:13] [Render thread/INFO] (Minecraft) Sound engine started
+[08:35:14] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[08:35:14] [Render thread/INFO] (Minecraft) Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[08:35:14] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[08:35:14] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[08:35:14] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[08:35:14] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[08:35:14] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[08:35:15] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[08:35:15] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[08:35:15] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[08:35:16] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
+[08:35:18] [Render thread/INFO] (GameData) Injecting existing registry data into this CLIENT instance
+[08:35:20] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[08:35:20] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[08:35:20] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[08:35:20] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[08:35:20] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[08:35:21] [Render thread/INFO] (Minecraft) Loaded 7 recipes
+[08:35:22] [Render thread/INFO] (Minecraft) Loaded 1141 advancements
+[08:35:22] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[08:35:22] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.18.2
+[08:35:22] [Server thread/INFO] (Minecraft) Generating keypair
+[08:35:23] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[08:35:24] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[08:35:24] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[08:35:24] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[08:35:24] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[08:35:25] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[08:35:25] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[08:35:26] [Render thread/INFO] (Minecraft) Preparing spawn area: 2%
+[08:35:26] [Render thread/INFO] (Minecraft) Preparing spawn area: 18%
+[08:35:27] [Render thread/INFO] (Minecraft) Preparing spawn area: 91%
+[08:35:27] [Render thread/INFO] (Minecraft) Time elapsed: 4183 ms
+[08:35:27] [Server thread/INFO] (PermissionAPI) Successfully initialized permission handler forge:default_handler
+[08:35:27] [Server thread/INFO] (Minecraft) Changing view distance to 8, from 10
+[08:35:27] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
+[08:35:28] [Netty Local Client IO #0/INFO] (NetworkHooks) Connected to a modded server.
+[08:35:28] [Server thread/INFO] (AdvancementLoadFix) Using new advancement loading for net.minecraft.server.PlayerAdvancements@503f6689
+[08:35:28] [Server thread/INFO] (Minecraft) Dev[local:E:d31ce4cd] logged in with entity id 216 at (361.36118795706045, 68.0, 23.273995642019283)
+[08:35:29] [Server thread/INFO] (Minecraft) Dev joined the game
+[08:35:29] [Render thread/INFO] (Minecraft) Loaded 9 advancements
+[08:35:31] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[08:35:31] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[08:35:31] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[08:35:31] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[08:36:41] [Render thread/INFO] (Minecraft) Loaded 15 advancements
+[08:37:14] [Render thread/WARN] (Minecraft) Unable to play empty soundEvent: minecraft:entity.cod.ambient
+[08:50:18] [Server thread/WARN] (Minecraft) Can't keep up! Is the server overloaded? Running 9636ms or 192 ticks behind
+[08:50:18] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[08:50:18] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[08:50:18] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[08:50:18] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[08:50:53] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[08:50:53] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[08:50:53] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[08:50:53] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[08:50:53] [Server thread/WARN] (Minecraft) Can't keep up! Is the server overloaded? Running 20375ms or 407 ticks behind

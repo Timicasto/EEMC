@@ -1,0 +1,109 @@
+{
+  "variants": {
+	"type=n4001,facing=south": {
+	  "model": "eemod:block/diode"
+	},
+	"type=n4001,facing=west": {
+	  "model": "eemod:block/diode",
+	  "y": 90
+	},
+	"type=n4001,facing=north": {
+	  "model": "eemod:block/diode",
+	  "y": 180
+	},
+	"type=n4001,facing=east": {
+	  "model": "eemod:block/diode",
+	  "y": 270
+	},
+	"type=n4002,facing=south": {
+	  "model": "eemod:block/diode"
+	},
+	"type=n4002,facing=west": {
+	  "model": "eemod:block/diode",
+	  "y": 90
+	},
+	"type=n4002,facing=north": {
+	  "model": "eemod:block/diode",
+	  "y": 180
+	},
+	"type=n4002,facing=east": {
+	  "model": "eemod:block/diode",
+	  "y": 270
+	},
+	"type=n4003,facing=south": {
+	  "model": "eemod:block/diode"
+	},
+	"type=n4003,facing=west": {
+	  "model": "eemod:block/diode",
+	  "y": 90
+	},
+	"type=n4003,facing=north": {
+	  "model": "eemod:block/diode",
+	  "y": 180
+	},
+	"type=n4003,facing=east": {
+	  "model": "eemod:block/diode",
+	  "y": 270
+	},
+	"type=n4004,facing=south": {
+	  "model": "eemod:block/diode"
+	},
+	"type=n4004,facing=west": {
+	  "model": "eemod:block/diode",
+	  "y": 90
+	},
+	"type=n4004,facing=north": {
+	  "model": "eemod:block/diode",
+	  "y": 180
+	},
+	"type=n4004,facing=east": {
+	  "model": "eemod:block/diode",
+	  "y": 270
+	},
+	"type=n4005,facing=south": {
+	  "model": "eemod:block/diode"
+	},
+	"type=n4005,facing=west": {
+	  "model": "eemod:block/diode",
+	  "y": 90
+	},
+	"type=n4005,facing=north": {
+	  "model": "eemod:block/diode",
+	  "y": 180
+	},
+	"type=n4005,facing=east": {
+	  "model": "eemod:block/diode",
+	  "y": 270
+	},
+	"type=n4006,facing=south": {
+	  "model": "eemod:block/diode"
+	},
+	"type=n4006,facing=west": {
+	  "model": "eemod:block/diode",
+	  "y": 90
+	},
+	"type=n4006,facing=north": {
+	  "model": "eemod:block/diode",
+	  "y": 180
+	},
+	"type=n4006,facing=east": {
+	  "model": "eemod:block/diode",
+	  "y": 270
+	},
+	"type=n4007,facing=south": {
+	  "model": "eemod:block/diode"
+	},
+	"type=n4007,facing=west": {
+	  "model": "eemod:block/diode",
+	  "y": 90
+	},
+	"type=n4007,facing=north": {
+	  "model": "eemod:block/diode",
+	  "y": 180
+	},
+	"type=n4007,facing=east": {
+	  "model": "eemod:block/diode",
+	  "y": 270
+	}
+  }
+}

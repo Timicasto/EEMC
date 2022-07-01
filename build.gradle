@@ -1,0 +1,102 @@
+plugins {
+	id 'eclipse'
+	id 'maven-publish'
+	id 'architectury-plugin' version "3.4-SNAPSHOT"
+	id 'dev.architectury.loom' version "0.11.0-SNAPSHOT" apply false
+}
+
+apply plugin: 'java'
+apply plugin: 'architectury-plugin'
+apply plugin: 'maven-publish'
+apply plugin: 'dev.architectury.loom'
+
+group 'org.quantumstudio.eemod'
+version '0.1.1'
+archivesBaseName = 'eemod'
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+println('Java: ' + System.getProperty('java.version') + ' JVM: ' + System.getProperty('java.vm.version') + '(' + System.getProperty('java.vendor') + ') Arch: ' + System.getProperty('os.arch'))
+
+architectury {
+	platformSetupLoomIde()
+	forge()
+}
+
+loom {
+	silentMojangMappingsLicense()
+
+	forge {
+		dataGen {
+			mod 'eemod'
+		}
+
+		mixinConfigs  = [
+				"mixins.eemod.json",
+		]
+	}
+
+	launches {
+		data {
+			arg "--existing", file("src/main/resources").absolutePath
+		}
+	}
+}
+
+processResources {
+	duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
+
+sourceSets.main.resources {
+	srcDir 'src/generated/resources'
+}
+
+repositories {
+	mavenCentral()
+
+	maven {
+		name = 'ParchmentMC'
+		url = 'https://maven.parchmentmc.org'
+	}
+}
+
+configurations.all {
+	resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+}
+
+dependencies {
+	minecraft 'com.mojang:minecraft:1.18.2'
+	forge "net.minecraftforge:forge:1.18.2-40.1.0"
+
+	mappings loom.layered() {
+		officialMojangMappings()
+		parchment("org.parchmentmc.data:parchment-1.18.2:2022.05.22@zip")
+	}
+}
+
+jar {
+	manifest {
+		attributes([
+				"Specification-Title"     : "eemod",
+				"Specification-Vendor"    : "Quantum Hardware Studio",
+				"Specification-Version"   : "3", // We are version 1 of ourselves
+				"Implementation-Title"    : project.name,
+				"Implementation-Version"  : project.jar.archiveVersion,
+				"Implementation-Vendor"   : "Quantum Hardware Studio",
+				"Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
+		])
+	}
+}
+
+publishing {
+	publications {
+		mavenJava(MavenPublication) {
+			artifact jar
+		}
+	}
+	repositories {
+		maven {
+			url "file://${project.projectDir}/mcmodsrepo"
+		}
+	}
+}

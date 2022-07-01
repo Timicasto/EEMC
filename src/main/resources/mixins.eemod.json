@@ -1,0 +1,13 @@
+{
+  "package": "org.quantumstudio.eemod.mixins",
+  "required": true,
+  "refmap": "mixins.eemod.refmap.json",
+  "target": "@env(DEFAULT)",
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+
+  ]
+}
